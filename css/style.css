@@ -237,6 +237,9 @@ img {
   margin: 10px 0;
   color: gray;
 }
+.answers{
+  margin-top: 15px;
+}
 
 #liked{
   display: none;
