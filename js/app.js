@@ -54,7 +54,7 @@ const createPost = (post) => {
   const userImage = post.userImage;
     const image = post.image;
     const div = document.createElement( "article" );
-    div.classList.add( "post" );
+  div.classList.add("post");
     div.innerHTML = `
               <div class="post__header">
                 <div class="post__profile">
@@ -144,16 +144,20 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
+const productsContainer = document.getElementById( "liked" );
+    productsContainer.innerHTML = "";
     const likedPosts = getLikedPosts();
-    likedPosts.forEach((post) => {
-        const div = createPost(post);
+  likedPosts.forEach((post) => {
+    const div = createPost(post);
         document.getElementById( "liked" ).appendChild(div);
     });
 };
 
 const displayReportedPosts = () => {
+  const productsContainer = document.getElementById( "reported" );
+    productsContainer.innerHTML = "";
     const reportedPosts = getReportedPosts();
-    posts.forEach((post) => {
+    reportedPosts.forEach((post) => {
         const div = createPost(post);
         document.getElementById( "reported" ).appendChild(div);
     });
