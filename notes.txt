@@ -1,0 +1,12 @@
+1.heart button doesn't work.
+2.profile picture of post is not showing users picture.
+3.post text is showing text .
+4.comment issues.
+5.reported posts is showing all post.
+6. liked post is repeat counting
+----------------------------------------
+conceptual questions.
+------------------------------------ 
+ 1. How does javascript work?
+ 2. What does javascript event loop do ?
+ 3. local storage vs session storage.
